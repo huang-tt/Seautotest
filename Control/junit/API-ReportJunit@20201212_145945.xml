@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gbk"?>
+	<testsuites>
+		<testsuite errors="0" failures="2" hostname="seautotest" name="API" skipped="" tests="1" time="0.218872" timestamp="2020-12-12T14:59:45.738804">
+			<testcase name="获取验证码并登录店员端" priority="M" time="0.217873">
+				<failure message="testdot:获取验证码-step:1-element:获取验证码-, 断言不通过接口没有此值：ture,json对比格式不通过" type="Failure"/>
+				<failure message="testdot:登录店员端-step:2-element:登录店员端-, 断言不通过接口没有此值：ture,json对比格式不通过" type="Failure"/>
+			</testcase>
+		</testsuite>
+	</testsuites>

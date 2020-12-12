@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gbk"?>
+	<testsuites>
+		<testsuite errors="0" failures="0" hostname="seautotest" name="API" skipped="" tests="1" time="0.598885" timestamp="2020-12-12T17:00:36.725346">
+			<testcase name="获取验证码并登录店员端" priority="M" time="0.597886"/>
+		</testsuite>
+	</testsuites>
