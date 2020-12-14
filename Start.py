@@ -28,7 +28,7 @@ try:
 except BaseException:
     print("allure测试报告,生成错误")
 # 发送测试报告到邮箱
-autotest.sendmail()
+
 end_se_time = datetime.now()
 
 print(end_se_time - start_se_time)
