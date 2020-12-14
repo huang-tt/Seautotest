@@ -4,6 +4,13 @@
 2.分辨是接口自动化还是ui数据等
 3.记录测试结果和输出测试报告
 """
+
+#备注在jenkins里构建项目时，可能找不到项目地址，python项目的环境地址，以及第三库的环境地址，所以需要加入
+import os,sys
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(dir)
+sys.path.append("F:\Python\Seautotest\\venv\Lib\site-packages")
+
 from Control.Log import logger
 from Control.Data import replace, acquire
 from Control import Httpcaps

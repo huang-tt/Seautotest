@@ -1,4 +1,10 @@
 # -*- coding: UTF-8 -*-
+#备注在jenkins里构建项目时，可能找不到项目地址，python项目的环境地址，以及第三库的环境地址，所以需要加入
+import os,sys
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(dir)
+sys.path.append("F:\Python\Seautotest\\venv\Lib\site-packages")
+
 import re
 import time
 from Control.Config import report_header, header_custom, file_element

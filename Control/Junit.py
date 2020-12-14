@@ -1,6 +1,13 @@
 #python读取，写入和更新xml文件
 #XML 指可扩展标记语言（eXtensible Markup Language）， 被设计用来传输和存储数据。python中有三个模块解析xml文件：DOM， ElementTree，SAX
 #DOM将XML数据在内存中解析成一个树，通过对树的操作来操作XML。python的xml.dom.minimom模块实现了DOM
+
+#备注在jenkins里构建项目时，可能找不到项目地址，python项目的环境地址，以及第三库的环境地址，所以需要加入
+import os,sys
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(dir)
+sys.path.append("F:\Python\Seautotest\\venv\Lib\site-packages")
+
 import timeit
 from xml.dom.minidom import Document
 from pathlib import Path
