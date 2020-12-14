@@ -8,7 +8,7 @@ sys.path.append("F:\Python\Seautotest\\venv\Lib\site-packages")
 from pathlib import Path
 
 mali_dict = {'send_user': '741479651@qq.com',  # 发件人
-             'password': 'zthjncnmvsiqbfbg',  # 2密码
+             'password': 'qniasszasncebccj',  # 2密码
              'receive_users': '741479651@qq.com',  # 3收件人地址
              'receive_lisy': [],  # 4收件人list地址
              'subject': 'python自动化测试报告',  # 5主题
